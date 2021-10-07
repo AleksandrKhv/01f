@@ -1,0 +1,22 @@
+.footer {
+    grid-area: f;
+    background: aqua;
+    margin: auto;
+    height: 30px;
+    width: 1200px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.ft {
+    color: green;
+}
+/*footer {*/
+/*    !*position: fixed;*!*/
+/*    height: 100px;*/
+/*    width: 100%;*/
+/*    !*background: green;*!*/
+/*    !*bottom: 0;*!*/
+/*}*/
