@@ -2,18 +2,10 @@ import React from "react";
 import st from './MyPosts.module.css'
 import Post from "./Post/Post";
 
-const MyPosts = () => {
+const MyPosts = (props: any) => {
 
-    let posts = [
-        {id: 1, message: 'HI, how are you?', likeC: '7'},
-        {id: 2, message: 'It\'s my first post', likeC: '77'},
-        {id: 3, message: 'It\'s my first post', likeC: '77'},
-        {id: 4, message: 'It\'s my first post', likeC: '77'},
-        {id: 5, message: 'It\'s my first post', likeC: '77'},
-
-    ]
-
-    let postsElements = posts.map(p => <Post message={p.message} likeC={p.likeC}/>);
+    let postsElements =
+        props.posts.map((p: { message: string; likeC: string; }) => <Post message={p.message} likeC={p.likeC}/>);
 
     return (
         <div className={st.postBlock}>

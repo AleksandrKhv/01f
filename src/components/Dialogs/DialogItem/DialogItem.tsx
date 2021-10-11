@@ -11,7 +11,7 @@ const DialogItem = (props: { name: string, id: number }) => {
         <div className={st.dialog}>
             <NavLink to={dia} activeClassName={st.use}>{props.name}</NavLink>
         </div>
-    );                                                                             //добавлен активный класс юзер для подсвечивания выбранного юзера
+    );                                           //добавлен активный класс юзер для подсвечивания выбранного юзера
 }
 
 export default DialogItem;
