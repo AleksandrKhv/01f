@@ -25,7 +25,7 @@ const App = (props: any) => {
                     <Route path='/music' render={ () => <Music/>}/>
                     <Route path='/settings' render={ () => <Settings/>}/>
                 </div>
-                <Footer/>
+                {/*<Footer/>*/}
             </div>
         </BrowserRouter>
     );
