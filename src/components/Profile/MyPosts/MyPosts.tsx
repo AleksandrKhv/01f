@@ -2,9 +2,10 @@ import React from "react";
 import st from './MyPosts.module.css'
 import Post from "./Post/Post";
 
+
 const MyPosts = (props: any) => {
 
-    let postsElements =
+    let postsElements: any =
         props.posts.map((p: { message: string; likeC: string; }) => <Post message={p.message} likeC={p.likeC}/>);
 
     return (
@@ -12,7 +13,7 @@ const MyPosts = (props: any) => {
             <h3>My posts</h3>
             <div>
                 <div>
-                    <textarea></textarea>
+                    <textarea>ppc</textarea>
                 </div>
                 <div>
                     <button>Add post</button>
