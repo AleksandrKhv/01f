@@ -15,6 +15,10 @@
 
 }
 
+.dialog img {
+    width: 30px;
+}
+
 /*.dialogsItems .dialog a.activeDialog {*/
 /*    color: blue;*/
 /*}*/

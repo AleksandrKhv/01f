@@ -27,7 +27,15 @@ let state: any = {
             {id: 10, name: 'Daddy'},
         ],
     },
+    sidebar: {
+        friend: [
+            {id: 1, name: 'Masha'},
+            {id: 2, name: 'Dasha'},
+            {id: 3, name: 'Ira'},
 
+        ]
+
+    },
 }
 
 export default state;

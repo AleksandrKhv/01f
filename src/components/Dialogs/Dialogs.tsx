@@ -5,8 +5,6 @@ import DialogItem from "./DialogItem/DialogItem";
 
 const Dialogs = (props: any) => {
 
-
-
     let dialogsElements =
         props.state.dialogs.map((d: { name: string; id: number; }) => <DialogItem name={d.name} id={d.id}/>);
     let messagesElements =
