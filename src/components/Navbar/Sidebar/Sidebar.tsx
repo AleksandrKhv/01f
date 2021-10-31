@@ -7,9 +7,9 @@ const Sidebar = () => {
         <div className={st.friends}>
             <div><h3>Friends</h3></div>
             <div className={st.friend}>
-                <div>Masha</div>
-                <div>Dasha</div>
-                <div>Ira</div>
+                <div><a href="">Masha</a></div>
+                <div><a href="">Dasha</a></div>
+                <div><a href="">Ira</a></div>
             </div>
         </div>
     );
