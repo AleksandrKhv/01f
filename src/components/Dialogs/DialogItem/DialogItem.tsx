@@ -9,7 +9,9 @@ const DialogItem = (props: { name: string, id: number }) => {
 
     return (
         <div className={st.dialog}>
-            <img src="https://icons.iconarchive.com/icons/designbolts/free-male-avatars/128/Male-Avatar-Cool-Cap-icon.png" alt=""/>
+            <img
+                src="https://icons.iconarchive.com/icons/designbolts/free-male-avatars/128/Male-Avatar-Cool-Cap-icon.png"
+                alt=""/>
             <NavLink to={dia} activeClassName={st.use}>{props.name}</NavLink>
         </div>
     );                                           //добавлен активный класс юзер для подсвечивания выбранного юзера
